@@ -82,6 +82,7 @@ body{
 .tech-stack-logos{
     display: flex;
     width: 100%;
+    gap: 5px;
     justify-content: space-around;
 }
 .tech-stack-logo{
@@ -116,5 +117,23 @@ body{
     width: 100%;
 }
 .sponsors-logo-container img{
-    width: 15%;
+    width: 30%;
+}
+@media(max-width:1024px){
+    body{
+        width: 100%;
+
+    }
+    .left{
+        width: 40%;
+
+    }
+    .right{
+        padding-left: 5px;
+        padding-right: 10px;
+        width: 60%;
+    }
+    .tech-stack-container{
+        flex-wrap: wrap;
+    }
 }
