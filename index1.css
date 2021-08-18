@@ -6,7 +6,7 @@
 body{
     font-family:'DM Sans', sans-serif ;
     width: 80%;
-    height: 90vh;
+    height: 85vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -104,8 +104,8 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    gap: 5px;
-    margin-bottom: 15px;
+    gap: 1px;
+    margin-bottom: 20px;
 }
 .sponsors-logo-container{
     
