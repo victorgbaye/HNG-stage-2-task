@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'DM Sans', sans-serif ;
+    width: 80%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(86, 202, 167);
+    /* background: lightcoral; */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 35%;
+    background: rgba(224, 226, 110, 0.753);
+}
+.name h1{
+    font-size: 30px;
+    font-family:'DM Sans', sans-serif ;
+}
+.track p{
+    font-size: 15px;
+    font-family:'DM Sans', sans-serif ;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h4{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.right{
+    width: 50%;
+    border-left: 5px solid black;
+    padding-left: 50px;
+    position: relative;
+}
+
+.pic{
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 50%;
+    width: 30%;
+}
+.right h3{
+    margin: 10px 0;
+}
+
+.profile p{
+    width: 50%;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+}
+.experiences p{
+    width: 50%;
+}
+.experiencess{
+    margin-top: 10px;
+}
+.tech-stack-header{
+    text-align: center;
+    margin-top: 30px;
+}
+.tech-stack-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-stack-logos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.tech-stack-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-stack-logo i{
+    font-size: 50px;
+}
+.sponsors{
+    /* outline: 1px solid rebeccapurple; */
+    /* margin-bottom: 50px; */
+    margin-top:5%;
+}
+.sponsors-title{
+    /* outline: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.sponsors-logo-container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* outline: 1px solid rebeccapurple; */
+    width: 100%;
+}
+.sponsors-logo-container img{
+    width: 15%;
+}
