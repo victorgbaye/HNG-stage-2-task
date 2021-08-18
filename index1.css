@@ -90,12 +90,12 @@ body{
     align-items: center;
 }
 .tech-stack-logo i{
-    font-size: 50px;
+    font-size: 30px;
 }
 .sponsors{
     /* outline: 1px solid rebeccapurple; */
     /* margin-bottom: 50px; */
-    margin-top:5%;
+    margin-top:10px;
 }
 .sponsors-title{
     /* outline: 1px solid yellow; */
