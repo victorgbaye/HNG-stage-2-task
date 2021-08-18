@@ -58,7 +58,7 @@ body{
 }
 
 .profile p{
-    width: 50%;
+    width: 70%;
 }
 .image{
     margin-left: auto;
@@ -72,7 +72,7 @@ body{
 }
 .tech-stack-header{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .tech-stack-container{
     display: flex;
